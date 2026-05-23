@@ -5,7 +5,6 @@
 
 using namespace std;
 
-// ---------- Конкретные задачи ----------
 
 class print_task : public task
 {
@@ -99,7 +98,7 @@ private:
     int n;
 };
 
-// ---------- Вспомогательные функции ----------
+
 
 void clearInput()
 {
@@ -131,7 +130,7 @@ int readPriority()
     return p;
 }
 
-// ---------- main ----------
+
 
 int main()
 {
